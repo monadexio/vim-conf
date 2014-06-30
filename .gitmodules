@@ -1,9 +1,6 @@
 [submodule ".vim/bundle/plantuml-syntax"]
 	path = .vim/bundle/plantuml-syntax
 	url = git://github.com/aklt/plantuml-syntax.git
-[submodule ".vim/bundle/vim-markdown"]
-	path = .vim/bundle/vim-markdown
-	url = git://github.com/hallison/vim-markdown.git
 [submodule ".vim/bundle/vimerl"]
 	path = .vim/bundle/vimerl
 	url = git://github.com/jimenezrick/vimerl.git
@@ -31,3 +28,6 @@
 [submodule ".vim/bundle/command-t"]
 	path = .vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule ".vim/bundle/vim-flavored-markdown"]
+	path = .vim/bundle/vim-flavored-markdown
+	url = git://github.com/jtratner/vim-flavored-markdown.git
