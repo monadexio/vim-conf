@@ -99,12 +99,12 @@ let NERDTreeIgnore=['\.pyc$', '\.beam$', '\.dump$', '\~$', '^\.']
 "nnoremap k gk
 
 " Alt+up/down will go down a 'line', even within one large, wrapped line
-map  <A-j> gj 
-map  <A-k> gk 
+map  <A-j> gj
+map  <A-k> gk
 imap <A-j> <ESC>gji
 imap <A-k> <ESC>gki
-map  <A-down> gj 
-map  <A-up> gk 
+map  <A-down> gj
+map  <A-up> gk
 imap <A-down> <ESC>gji
 imap <A-up> <ESC>gki
 
@@ -176,8 +176,8 @@ map <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:let @/=''<CR>
 " Clean whitespace
 map <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
-" Ack 
-map <leader>a :Ack 
+" Ack
+map <leader>a :Ack
 
 " Command-T plugin
 map <leader>t :CommandT<cr>
