@@ -275,3 +275,9 @@ let g:surround_35  = "#{\r}"   " #
 " Or yss- to do entire line.
 let g:surround_45 = "<% \r %>"    " -
 let g:surround_61 = "<%= \r %>"   " =
+
+" Existing instructions can be found within Vim7 using
+" :h ft-syntax-omni
+if has("autocmd") && exists("+omnifunc")
+  autocmd Filetype * setlocal omnifunc=syntaxcomplete#Complete
+endif
