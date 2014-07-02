@@ -50,3 +50,6 @@
 [submodule ".vim/bundle/MatchTag"]
 	path = .vim/bundle/MatchTag
 	url = git@github.com:gregsexton/MatchTag.git
+[submodule ".vim/bundle/vim-exchange"]
+	path = .vim/bundle/vim-exchange
+	url = git@github.com:tommcdo/vim-exchange.git
