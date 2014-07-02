@@ -53,3 +53,6 @@
 [submodule ".vim/bundle/vim-exchange"]
 	path = .vim/bundle/vim-exchange
 	url = git@github.com:tommcdo/vim-exchange.git
+[submodule ".vim/bundle/vim-abolish"]
+	path = .vim/bundle/vim-abolish
+	url = git@github.com:tpope/vim-abolish.git
