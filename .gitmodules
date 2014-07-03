@@ -62,3 +62,6 @@
 [submodule ".vim/bundle/ctrlp"]
 	path = .vim/bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/vim-qargs"]
+	path = .vim/bundle/vim-qargs
+	url = git@github.com:nelstrom/vim-qargs.git
