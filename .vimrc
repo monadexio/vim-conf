@@ -122,30 +122,6 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 map <leader>w <C-w>v<C-w>l
 
-" toggle comments
-map <leader>c V:!perl -nle 'if (/^\%\% /) { s/^\%\% (.*)/$1/g; print } else {print "\%\% ".$_}'<cr>
-
-" Max/unmax splits
-nnoremap <c -W>O :call MaximizeToggle ()<cr>
-nnoremap <c -W>o :call MaximizeToggle ()<cr>
-nnoremap <c -W><c-O> :call MaximizeToggle ()<cr>
-
-function! MaximizeToggle()
-  if exists("s:maximize_session")
-    exec "source " . s:maximize_session
-    call delete(s:maximize_session)
-    unlet s:maximize_session
-    let &hidden=s:maximize_hidden_save
-    unlet s:maximize_hidden_save
-  else
-    let s:maximize_hidden_save = &hidden
-    let s:maximize_session = tempname()
-    set hidden
-    exec "mksession! " . s:maximize_session
-    only
-  endif
-endfunction
-
 let g:erlang_folding=1
 
 " Get rid of help key.
@@ -206,9 +182,6 @@ nmap <leader>m :make<cr>
 
 " Easier linewise reselection
 map <leader>v V`]
-
-" HTML tag closing
-inoremap <C-_> <Space><BS><Esc>:call InsertCloseTag()<cr>a
 
 " Faster Esc (hit jj in insert mode)
 inoremap jj <ESC>
