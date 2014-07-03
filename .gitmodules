@@ -10,9 +10,6 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/git-vim"]
-	path = .vim/bundle/git-vim
-	url = git://github.com/motemen/git-vim.git
 [submodule ".vim/bundle/javascript-libraries-syntax"]
 	path = .vim/bundle/javascript-libraries-syntax
 	url = git://github.com/othree/javascript-libraries-syntax.vim.git
