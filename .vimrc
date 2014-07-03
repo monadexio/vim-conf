@@ -179,13 +179,6 @@ map <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " Ack
 map <leader>a :Ack
 
-" Command-T plugin
-map <leader>t :CommandT<cr>
-let CommandTMaxHeight=0
-"set CommandTMatchWindowAtTop=1
-"set CommandTAcceptSelectionSplitMap='s'
-"set CommandTAcceptSelectionVSplitMap='v'
-
 " Yankring
 nnoremap <silent> <F3> :YRShow<cr>
 nnoremap <silent> <leader>y :YRShow<cr>
