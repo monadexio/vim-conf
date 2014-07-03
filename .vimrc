@@ -35,7 +35,7 @@ endif
 set ttyfast
 set ruler
 set backspace=indent,eol,start
-"set relativenumber
+set relativenumber
 set laststatus=2
 
 " persistent undo
