@@ -155,9 +155,9 @@ map <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " Ack
 map <leader>a :Ack
 
-" Yankring
-nnoremap <silent> <F3> :YRShow<cr>
-nnoremap <silent> <leader>y :YRShow<cr>
+" " Yankring
+" nnoremap <silent> <F3> :YRShow<cr>
+" nnoremap <silent> <leader>y :YRShow<cr>
 
 " Formatting, TextMate-style
 map <leader>q gqip
@@ -221,6 +221,8 @@ augroup markdown
 augroup END
 
 "mark syntax errors with :signs
+let g:syntastic_mode_map = { 'mode': 'active',
+                           \ 'passive_filetypes': ['java'] }
 let g:syntastic_enable_signs=1
 "automatically jump to the error when saving the file
 let g:syntastic_auto_jump=0
@@ -247,3 +249,8 @@ let g:surround_61 = "<%= \r %>"   " =
 if has("autocmd") && exists("+omnifunc")
   autocmd Filetype * setlocal omnifunc=syntaxcomplete#Complete
 endif
+
+let g:yankring_enabled = 0
+
+let g:ycm_extra_conf_globlist = ['~/']
+let g:ycm_confirm_extra_conf = 0
