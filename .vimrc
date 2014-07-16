@@ -220,17 +220,6 @@ augroup markdown
     au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 augroup END
 
-"mark syntax errors with :signs
-let g:syntastic_mode_map = { 'mode': 'active',
-                           \ 'passive_filetypes': ['java'] }
-let g:syntastic_enable_signs=1
-"automatically jump to the error when saving the file
-let g:syntastic_auto_jump=0
-"show the error list automatically
-let g:syntastic_auto_loc_list=1
-"don't care about warnings
-let g:syntastic_quiet_messages = {'level': 'warnings'}
-
 " via: http://whynotwiki.com/Vim
 " Ruby
 " Use v or # to get a variable interpolation (inside of a string)}
@@ -254,3 +243,4 @@ let g:yankring_enabled = 0
 
 let g:ycm_extra_conf_globlist = ['~/']
 let g:ycm_confirm_extra_conf = 0
+let g:ycm_show_diagnostics_ui = 0
