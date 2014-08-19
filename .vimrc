@@ -208,10 +208,6 @@ nnoremap ; :
 " Stop it, hash key
 inoremap # X<BS>#
 
-" workround pathogen and vim session conflict
-" https://github.com/tpope/vim-pathogen/issues/16
-set sessionoptions-=options
-
 set path+=**
 
 augroup markdown
