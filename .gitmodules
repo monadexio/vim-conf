@@ -77,6 +77,7 @@
 [submodule ".vim/bundle/jshint"]
 	path = .vim/bundle/jshint
 	url = git://github.com/walm/jshint.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/editorconfig-vim"]
 	path = .vim/bundle/editorconfig-vim
 	url = git://github.com/editorconfig/editorconfig-vim.git
