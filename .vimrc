@@ -243,3 +243,5 @@ let g:yankring_enabled = 0
 let g:ycm_extra_conf_globlist = ['~/']
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_show_diagnostics_ui = 0
+
+let g:html_exclude_tags = ['html']
