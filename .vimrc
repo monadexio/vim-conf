@@ -9,6 +9,8 @@ filetype plugin indent on
 set nocompatible
 set modelines=0
 
+set history=2000
+
 " Tabs/spaces
 set tabstop=4
 set shiftwidth=4
