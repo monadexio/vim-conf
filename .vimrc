@@ -261,3 +261,5 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+let g:SimpleJsIndenter_BriefMode = 1

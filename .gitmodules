@@ -81,3 +81,6 @@
 [submodule ".vim/bundle/vim-html5"]
 	path = .vim/bundle/vim-html5
 	url = git://github.com/othree/html5.vim.git
+[submodule ".vim/bundle/simple-javascript-indenter"]
+	path = .vim/bundle/simple-javascript-indenter
+	url = git://github.com/jiangmiao/simple-javascript-indenter.git
