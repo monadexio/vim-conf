@@ -84,3 +84,6 @@
 [submodule ".vim/bundle/simple-javascript-indenter"]
 	path = .vim/bundle/simple-javascript-indenter
 	url = git://github.com/jiangmiao/simple-javascript-indenter.git
+[submodule ".vim/bundle/vim-addon-local-vimrc"]
+	path = .vim/bundle/vim-addon-local-vimrc
+	url = git://github.com/MarcWeber/vim-addon-local-vimrc.git
