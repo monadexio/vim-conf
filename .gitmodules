@@ -87,3 +87,6 @@
 [submodule ".vim/bundle/vim-addon-local-vimrc"]
 	path = .vim/bundle/vim-addon-local-vimrc
 	url = git://github.com/MarcWeber/vim-addon-local-vimrc.git
+[submodule ".vim/bundle/vim-less"]
+	path = .vim/bundle/vim-less
+	url = git://github.com/groenewege/vim-less.git
