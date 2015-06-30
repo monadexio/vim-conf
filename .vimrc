@@ -75,8 +75,9 @@ set listchars=tab:▸\ ,eol:¬
 
 " Color scheme (terminal)
 syntax on
-set background=light
-colorscheme peachpuff
+set background=dark
+colorscheme solarized
+" colorscheme peachpuff
 hi ColorColumn ctermbg=lightgrey guibg=lightgrey
 " hi ColorColumn ctermbg=lightcyan guibg=lightcyan
 " hi ColorColumn ctermbg=lightgreen guibg=lightgreen
@@ -264,3 +265,5 @@ augroup resCur
 augroup END
 
 let g:SimpleJsIndenter_BriefMode = 1
+
+let g:ackprg = 'ag --nogroup --nocolor --column'
