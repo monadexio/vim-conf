@@ -125,11 +125,6 @@ map <leader>w <C-w>v<C-w>l
 
 let g:erlang_folding=1
 
-" Get rid of help key.
-inoremap <F1> <ESC>:set invfullscreen<CR>a
-nnoremap <F1> :set invfullscreen<CR>
-vnoremap <F1> :set invfullscreen<CR>
-
 " Various syntax stuff
 au BufNewFile,BufRead *.escript set filetype=erlang
 au BufNewFile,BufRead *.app.src set filetype=erlang
