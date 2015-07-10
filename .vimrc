@@ -259,6 +259,4 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 
-let g:SimpleJsIndenter_BriefMode = 1
-
 let g:ackprg = 'ag --nogroup --nocolor --column'

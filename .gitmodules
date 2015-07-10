@@ -81,9 +81,6 @@
 [submodule ".vim/bundle/vim-html5"]
 	path = .vim/bundle/vim-html5
 	url = git://github.com/othree/html5.vim.git
-[submodule ".vim/bundle/simple-javascript-indenter"]
-	path = .vim/bundle/simple-javascript-indenter
-	url = git://github.com/jiangmiao/simple-javascript-indenter.git
 [submodule ".vim/bundle/vim-addon-local-vimrc"]
 	path = .vim/bundle/vim-addon-local-vimrc
 	url = git://github.com/MarcWeber/vim-addon-local-vimrc.git
@@ -93,3 +90,6 @@
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
